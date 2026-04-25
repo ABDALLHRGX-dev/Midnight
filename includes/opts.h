@@ -2,7 +2,7 @@
 #include <string>
 #include <cstdint>
 
-constexpr const char* BACKEND_URL = "https://lead-represent-particles-recognize.trycloudflare.com";
+constexpr const char* BACKEND_URL = "https://athletic-wear-eagles-rob.trycloudflare.com/";
 constexpr bool BYPASS_SSL = false; // only works with curl versions (aka if it doesnt use processrequest i cba bypassing ssl for this)
 constexpr bool ENABLE_LOGS = true; // to debug stuff js keep it disabled for release
 

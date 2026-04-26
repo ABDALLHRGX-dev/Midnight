@@ -11,7 +11,7 @@ namespace FCurlHookOpts {
     constexpr bool USE_PR = true; // only enable this if ur doing 18.40+
     constexpr uintptr_t PR_ADDR = 0x08A6A0B0; // set this to the correct address (processrequest)
     constexpr uintptr_t GETURL_ADDR = 0x70; // set this to the correct address (geturl its mostly 0x70 until like s25/26+)
-    constexpr uintptr_t SETURL_ADDR = 0x8A777AC; // set this to the correct address (seturl)
+    constexpr uintptr_t SETURL_ADDR = 0x8A777CC; // set this to the correct address (seturl)
 }
 
 namespace EOSFCurlHookOpts {

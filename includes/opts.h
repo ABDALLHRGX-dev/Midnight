@@ -15,7 +15,7 @@ namespace FCurlHookOpts {
 }
 
 namespace EOSFCurlHookOpts {
-    constexpr bool USE_EOS = false; // only enable this if ur doing s22+
+    constexpr bool USE_EOS = true; // only enable this if ur doing s22+
     constexpr uintptr_t PR_ADDR = 0x125F9A4; // set this to the correct address (processrequest)
     constexpr uintptr_t GETURL_ADDR = 0x178; // set this to the correct address (geturl its 0x178 in almost any build)
     constexpr uintptr_t SETURL_ADDR = 0x364C; // set this to the correct address (seturl)
